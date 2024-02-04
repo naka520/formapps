@@ -19,7 +19,8 @@ namespace formapps
 
             PictureBox pb = new PictureBox();
             pb.Image = Image.FromFile("C:\\Users\\yashi\\source\\repos\\Csharpebooks\\formapps\\car.bmp");
-            pb.Top = 100;
+            pb.Top = pb.Top + 10;
+            pb.Left = pb.Left + 10;
             pb.Parent = fm;
 
             Application.Run(fm);
